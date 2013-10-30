@@ -43,11 +43,11 @@ describe "the greet function" do
   end
 
   it "says hello to someone else" do
-    greet("Bob").should == "Hello, Bob!"
+    greeting("Bob").should == "Hello, Bob!"
   end
 
   # These two tests are saying there should be a method named greet
   # that takes in a string, and returns that string inside of another string, a hello greeting.
   # Again, the method has to be defined in hello.rb
-  # Try see if you can get this test to pass!
+    # Try see if you can get this test to pass!
 end

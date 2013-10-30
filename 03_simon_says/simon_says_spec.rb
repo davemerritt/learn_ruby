@@ -55,7 +55,7 @@ describe "Simon says" do
     it "returns the first two letters" do
       start_of_word("Bob", 2).should == "Bo"
     end
-
+    
     it "returns the first several letters" do
       s = "abcdefg"
       start_of_word(s, 1).should == "a"
